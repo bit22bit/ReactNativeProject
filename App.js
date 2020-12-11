@@ -1,5 +1,4 @@
 import 'react-native-gesture-handler';
-// In App.js in a new project
 
 import * as React from 'react';
 import { Text, View, Button } from 'react-native';
