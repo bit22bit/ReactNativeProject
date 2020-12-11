@@ -8,15 +8,6 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import HomeScreen from './src/screens/HomeScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 
-// function SettingsScreen({ navigation }) {
-//   return (
-//     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-//       <Text>Settings!</Text>
-//       <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
-//     </View>
-//   );
-// }
-
 const Tab = createBottomTabNavigator();
 
 export default function App() {
