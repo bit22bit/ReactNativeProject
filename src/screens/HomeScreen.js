@@ -9,7 +9,7 @@ const HomeScreen = () => {
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Home!</Text>
       <Button
-        title="Teri ma di lun" onPress={() => navigation.navigate('Settings')}
+        title="jai mata di" onPress={() => navigation.navigate('Settings')}
       />
     </View>
   );
