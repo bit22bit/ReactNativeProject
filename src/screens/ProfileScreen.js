@@ -7,10 +7,10 @@ import { Text, View, Button, Image } from 'react-native';
 const ProfileScreen = () => {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Image
+      {/* <Image
         style={styles.tinyLogo}
         source={require('@expo/snack-static/react-native-logo.png')}
-      />
+      /> */}
       <Text>
         Miriam Bekham
       </Text>
